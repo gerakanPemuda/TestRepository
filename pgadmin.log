@@ -1,0 +1,13 @@
+2022-06-17 13:14:04 ERROR  : ERROR:  database "belajar" is being accessed by other users
+DETAIL:  There are 4 other sessions using the database.
+2022-06-21 14:02:05 ERROR  : ERROR:  could not open extension control file "C:/Program Files (x86)/Odoo 13.0/PostgreSQL/share/extension/postgis.control": No such file or directory
+2022-06-21 14:02:50 ERROR  : ERROR:  could not open extension control file "C:/Program Files (x86)/Odoo 13.0/PostgreSQL/share/extension/post.control": No such file or directory
+2022-06-21 14:48:32 ERROR  : ERROR:  database "postgis" does not exist
+2022-06-21 14:49:34 ERROR  : ERROR:  database "postgis" does not exist
+2022-06-21 14:49:57 ERROR  : ERROR:  database "postgis" does not exist
+2022-06-27 14:26:50 ERROR  : ERROR:  cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "onpoint_support" references "onpoint_client".
+HINT:  Truncate table "onpoint_support" at the same time, or use TRUNCATE ... CASCADE.
+2022-06-27 14:27:16 ERROR  : ERROR:  cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "onpoint_support" references "onpoint_client".
+HINT:  Truncate table "onpoint_support" at the same time, or use TRUNCATE ... CASCADE.
